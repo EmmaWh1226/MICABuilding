@@ -1,0 +1,393 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  font-family: "Open Sans", Arial;
+  background: #ccc;
+}
+main {
+  background: #eee;
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+#mobile {
+  display: block;
+}
+#pc {
+  display: none;
+}
+.illustration {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 13px;
+}
+input {
+  display: none;
+  visibility: hidden;
+}
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  color: #666;
+}
+label:hover {
+  color: #000;
+}
+label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #ccc 50%, transparent 50%);
+}
+#expand1 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand2 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand3 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand4 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand5 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand6 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand7 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand8 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand9 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand10 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand11 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand12 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand13 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand14 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand15 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand16 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand17 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand18 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand19 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand20 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand21 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand22 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand23 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+#expand24 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #000000;
+}
+section {
+  padding: 0 20px;
+}
+#mobile #toggle1:checked ~ #expand1 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle1:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle2:checked ~ #expand2 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle2:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle3:checked ~ #expand3 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle3:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle4:checked ~ #expand4 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle4checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle5:checked ~ #expand5 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle5:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle6:checked ~ #expand6 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle6:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle7:checked ~ #expand7 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle7:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle8:checked ~ #expand8 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle8:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle9:checked ~ #expand9 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle9:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle10:checked ~ #expand10 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle10:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle11:checked ~ #expand11 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle11:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle12:checked ~ #expand12 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle12:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle13:checked ~ #expand13 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle13:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle14:checked ~ #expand14 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle14:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle15:checked ~ #expand15 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle15:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle16:checked ~ #expand16 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle16:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle17:checked ~ #expand17 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle17:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle18:checked ~ #expand18 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle18:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle19:checked ~ #expand19 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle19:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle20:checked ~ #expand20 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle20:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle21:checked ~ #expand21 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle21:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle22:checked ~ #expand22 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle22:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle23:checked ~ #expand23 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle23:checked ~ label::before {
+  content: "-";
+}
+#mobile #toggle24:checked ~ #expand24 {
+  min-height: 250px;
+  height: auto;
+}
+#mobile #toggle24:checked ~ label::before {
+  content: "-";
+}
