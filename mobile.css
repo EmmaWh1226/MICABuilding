@@ -6,7 +6,7 @@ body {
 }
 main {
   background: #eee;
-  width: 600px;
+  width: 100%;
   margin: 20px auto;
   padding: 10px 0;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
