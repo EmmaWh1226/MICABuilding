@@ -27,6 +27,7 @@ p {
   align-items: flex-start;
   width: 75%;
   margin: 0 auto;
+  text-align: left;
 }
 h2 {
   text-align: center;
